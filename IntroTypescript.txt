@@ -1,0 +1,45 @@
+Instalaciones recomendadas - Curso de TypeScript
+Node JS
+
+VSCode - Visual Studio Code
+
+Google Chrome
+
+Extensiones de VSCode
+Activitus Bar
+
+TypeScript importer
+
+Instalamos typescript Global
+
+para node mediante un proyecto
+npm install typescript --save-dev
+
+instalamos de manera global
+npm install -g typescript
+
+
+Creamos una carpeta bases
+dentro creamos un index.html y app.ts
+
+en la terminal dentro de la carpeta bases ejecutamos 
+tsc app
+
+**TSCONFIG**
+Cuando nos muestra un error en typescript que la variable no puede ser declarada
+por que aparace que tenemso en app.js por que lo tenemos declarada
+lo generamos desde la terminal
+
+tsc --init
+
+nos crea el ts.config.json
+con comillas doble paara definir sus propiedades 
+ser lo mas strict posible 
+
+
+***Watch mode**
+transpilar 
+typescript traduce al sinonimo que el javascript escribiendo de manera diferente
+es mas facil de leer, pero javascript lo lee chrome
+
+modo observador con el => tsc --watch o tsc --w
