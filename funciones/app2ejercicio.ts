@@ -27,7 +27,7 @@ const unirheroes = ( ...personas:string[] ) => {
 }
 
 
-// Tipo funcion
+// Tipo funcion con diferentes parametros
 const noHaceNada = ( numero:number, texto:string, booleano:boolean, arreglo:string[] )=> {}
 
 // Crear el tipo de funcion que acepte la funcion "noHaceNada" si no regresa nada sera un void

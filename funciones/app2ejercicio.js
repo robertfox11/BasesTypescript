@@ -22,7 +22,7 @@ llamarBatman();
 const unirheroes = (...personas) => {
     return personas.join(", ");
 };
-// Tipo funcion
+// Tipo funcion con diferentes parametros
 const noHaceNada = (numero, texto, booleano, arreglo) => { };
 // Crear el tipo de funcion que acepte la funcion "noHaceNada" si no regresa nada sera un void
 let noHaceNadaTampoco;
