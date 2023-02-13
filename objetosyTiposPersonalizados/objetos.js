@@ -7,16 +7,16 @@
     let flash = {
         name: "barry Allen",
         age: 24,
-        powers: ['Súper velocidad', 'viaje en el tiempo']
+        powers: ["Súper velocidad", "viaje en el tiempo"],
     };
-    //typescript 
+    //typescript
     flash = {
-        name: 'Clark kent',
+        name: "Clark kent",
         age: 60,
-        powers: ['Súper fuerza'],
+        powers: ["Súper fuerza"],
         getName() {
             return this.name;
-        }
+        },
     };
     //flash.getName?.().,=> por que el metodo puede ser undefined
     console.log((_a = flash.getName) === null || _a === void 0 ? void 0 : _a.call(flash));
