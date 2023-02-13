@@ -1,6 +1,5 @@
 "use strict";
 (() => {
-    //funciones typescript basicas
     const hero = 'Flash';
     function returnName() {
         return hero;
@@ -11,3 +10,4 @@
     console.log(typeof activateBateSignal);
     const heroName = returnName();
 })();
+//# sourceMappingURL=funciones.js.map

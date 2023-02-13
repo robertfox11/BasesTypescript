@@ -1,23 +1,19 @@
 "use strict";
-// Objetos con el tipo personalizado con types con optional chaining (?)
 const batimovil = {
     carroceria: "Negra",
     modelo: "6x6",
     antibalas: true,
     pasajeros: 4,
 };
-// Objetos con el tipo personalizado con types
 const bumblebee = {
     carroceria: "Amarillo con negro",
     modelo: "4x2",
     antibalas: true,
     pasajeros: 4,
     disparar() {
-        // El metodo disparar es opcional
         console.log("Disparando");
     },
 };
-// Villanos debe de ser un arreglo de objetos personalizados
 const villanos = [
     {
         nombre: "Lex Luthor",
@@ -43,7 +39,8 @@ const apocalipsis = {
     lider: true,
     miembros: ["Magneto", "Tormenta", "Psylocke", "Angel"],
 };
-// Mystique, debe poder ser cualquiera de esos dos mutantes (charles o apocalipsis)
 let mystique;
+console.log(apocalipsis);
 mystique = charles;
 mystique = apocalipsis;
+//# sourceMappingURL=appEjercicio.js.map

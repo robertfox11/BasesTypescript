@@ -5,7 +5,7 @@
     name: string;
     age?: number;
     powers: string[];
-    getName: () => string;
+    getName?: () => string;
   };
   //definimos que la variable flash es de tipo Hero
   let flash: Hero = {

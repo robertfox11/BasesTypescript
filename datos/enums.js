@@ -1,6 +1,5 @@
 "use strict";
 (() => {
-    //el uso de las enumeracion que tenga un sentido semantico facil de ver y establecer valores
     let AudioLevel;
     (function (AudioLevel) {
         AudioLevel[AudioLevel["min"] = 1] = "min";
@@ -11,3 +10,4 @@
     console.log(currentAudio);
     console.log(AudioLevel);
 })();
+//# sourceMappingURL=enums.js.map

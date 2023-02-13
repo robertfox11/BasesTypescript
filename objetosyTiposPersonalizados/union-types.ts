@@ -5,7 +5,7 @@
     name: string;
     age?: number;
     powers: number[];
-    getName: () => string;
+    getName?: () => string;
   };
   let myCustomVariables: string | number | Hero = "Robert";
   console.log(typeof myCustomVariables);
