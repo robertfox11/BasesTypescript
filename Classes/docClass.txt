@@ -1,0 +1,5 @@
+## Incluimos en nuestro tsconfig.json la carpeta classes
+va ser que nuestro main tenemos las classes
+    }"include": ["Classes"]
+tenemos esta informacion en el main
+//# sourceMappingURL=main.js.map
