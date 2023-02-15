@@ -1,0 +1,4 @@
+## NAMESPACE
+  Sirve de agrupador para utilizar en cualquier sitio
+  vamos a tsconfig.json y damos un incluide de namespaces
+  ,"include": ["namespaces"]
