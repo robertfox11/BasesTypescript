@@ -1,3 +1,4 @@
+//decoradores genericos
 import { getPokemon } from "./genericos/get-pokemon";
 getPokemon(4)
   .then((poke) => console.log(poke.abilities))
